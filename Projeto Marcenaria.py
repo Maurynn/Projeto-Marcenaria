@@ -104,7 +104,7 @@ while True:
             arquivo.write(f'Ambiente: {ambiente}\n')
             arquivo.write(f'Movel: {movel}\n')
             arquivo.close()
-            os.system('cls') #Substituir 'cls' por 'clear' caso for rodar no linux ou smartphone android.
+            os.system('cls||clear')
             sleep(0.4)
             print('{:=^73}' .format(' \033[1;33;40mCADASTRAR CLIENTE\033[m '))
             print('Cliente:', cliente)
@@ -118,7 +118,7 @@ while True:
             print('_'*60)
             if cadastrar == 'N':
                 break
-            os.system('cls') #Substituir 'cls' por 'clear' caso for rodar no linux ou smartphone android.
+            os.system('cls||clear')
 
 # Lendo dados do arquivo de texto.
     if opção == 1:
@@ -296,7 +296,7 @@ EM QUANTAS VEZES DESEJA PARCELAR? '''))
     continuar = str(input(
         '\033[1;37m\nDESEJA VOLTAR AO MENU PRINCIPAL? [ S / N ]:\033[m ')).upper() .strip()[0]
     sleep(0.4)
-    os.system('cls') #Substituir 'cls' por 'clear' caso for rodar no linux ou smartphone android.
+    os.system('cls||clear')
 
     if continuar == 'N':
         break
