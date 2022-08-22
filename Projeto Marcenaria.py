@@ -24,7 +24,7 @@ with Bar('Carregando Sistema:', fill=CYAN+'■'+RESET, suffix='%(percent)d%%') a
     for i in range(100):
         sleep(0.06)
         bar.next()
-os.system('cls') #Substituir 'cls' por 'clear' caso for rodar no linux ou smartphone android. 
+os.system('cls||clear') 
 
 cont = 0
 s = 0
