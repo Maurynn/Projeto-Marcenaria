@@ -49,7 +49,7 @@ while True:
 [9] - SAIR\033[m''')
     print('='*60)
     opção = int(input(branco+'Sua Opção: '+RESET))
-    os.system('cls')
+    os.system('cls||clear')
     sleep(0.4)
 
 # ENVIAR ARQUIVOS POR EMAIL:
